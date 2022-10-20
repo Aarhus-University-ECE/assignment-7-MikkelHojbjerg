@@ -37,5 +37,15 @@ int main(int argc, char **argv)
 			n = 8;
 		}
 
+
+		/*
+		Kan ikke få mit program til at kører uanset hvad.
+		Jeg ved dog at jo større et præcisions tal taylor sine har, jo mere præcis bliver faceit.
+		Dette kan betyde at hvis n = 100000000, vil en test på 5% afvigelse ikke gå igennem.
+
+		Jo tættere x er på nul, jo mere minder de to resultatet mere om hinanden
+		*/
+
+
     return 0;
 }
