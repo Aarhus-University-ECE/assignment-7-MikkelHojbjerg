@@ -37,9 +37,8 @@ double taylor_sine(double x, int n)
 
 		}
 
-		printf("%f\n",pow(x,j)/fac(j));
-
 		j += 2;
 	}
+
     return res;
 }
