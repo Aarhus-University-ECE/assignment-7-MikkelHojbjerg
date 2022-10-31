@@ -21,14 +21,14 @@ set(CMAKE_CXX_STANDARD 14)
 #	--error-exitcode=1;
 #)
 
-#define libary called queue that can imported into other targets via
-#	'target_link_libaries'
-add_libary(mymath src/stack.c src/taylor_sine.c )
+#define library called queue that can imported into other targets via
+#	'target_link_libraries'
+add_library(mymath src/stack.c src/taylor_sine.c )
 target_include_directories(mymath PUBLIC include)
 
 #define executable named main for experimenting and debugging code
 add_executable(main src/main.cpp)
-target_link_libaries(main mymath)
+target_link_libraries(main mymath)
 
 #tests are added by declaring a target, in this case 'tests'. additional tests
 #can be added by expanding the test cases in 'src/tests.cpp' or an additional

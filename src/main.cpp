@@ -4,7 +4,6 @@
 
 int main(int argc, char **argv)
 {
-
 	double x = 0, res;
 	int n = 1;
 
@@ -32,15 +31,14 @@ int main(int argc, char **argv)
 		}else if(i == 4){
 			x = 76;
 			n = 176;
-		}else if(i ==5 && != 0){
+		}else if(i == 5 && i != 0){
 			x = 467;
 			n = 8;
 		}
-
+	}
 
 		/*
-		Kan ikke få mit program til at kører uanset hvad.
-		Jeg ved dog at jo større et præcisions tal taylor sine har, jo mere præcis bliver faceit.
+		Jo større et præcisions tal taylor sine har, jo mere præcis bliver faceit.
 		Dette kan betyde at hvis n = 100000000, vil en test på 5% afvigelse ikke gå igennem.
 
 		Jo tættere x er på nul, jo mere minder de to resultatet mere om hinanden
